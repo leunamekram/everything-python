@@ -142,3 +142,10 @@ See [pytest.pdf](./docs/pytest.pdf) for full Pytest documentation.
 
 ## A Great Blog About Unit Testing
 [Writing Great Unit Tests: Best and Worst Practices](https://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises)
+
+Key points to remember:
+* Make each test orthogonal (i.e., independent) to all the others. Any given behaviour should be specified in one and only one test.
+* Don't make unnecessary assertions. It’s counterproductive to Assert() anything that’s also asserted by another test: it just increases the frequency of pointless failures without improving unit test coverage one bit.
+* Have only one logical assertion per test. Remember, unit tests are a design specification of how a certain behaviour should work, not a list of observations of *everything* the code happens to do.
+* Test only one code unit (classes or very small groups of classes) at a time.
+* TODO: Continue reading
