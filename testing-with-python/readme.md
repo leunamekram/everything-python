@@ -139,3 +139,6 @@ pytest -v --junitxml="results.xml"
 
 ## Full Documentation
 See [pytest.pdf](./docs/pytest.pdf) for full Pytest documentation.
+
+## A Great Blog About Unit Testing
+[Writing Great Unit Tests: Best and Worst Practices](https://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises)
